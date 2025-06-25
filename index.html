@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IsaKa shop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">Isaka shop</div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#categorias">Categorías</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="carrito-icon">
+      <i class="fas fa-shopping-cart"></i>
+      <span class="cart-count">0</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Enciende tu juego</h1>
+      <p>Monitor 8k </p>
+      <a href="#productos" class="btn">Comprar ahora</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1654095923893-6a255e5ed4d3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero Image" class="hero-image">
+  </section>
+
+  <!-- Categorías -->
+  <section id="categorias" class="seccion categorias fade-in">
+    <h2 class="titulo-seccion">Explora nuestras categorías</h2>
+    <div class="categorias-grid">
+      <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ropa mujer">
+        <h3>Ropa mujer</h3>
+      </div>
+      <div class="categoria">
+        <img src="https://plus.unsplash.com/premium_photo-1681276169450-4504a2442173?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="accesorios">
+        <h3>Accesorios</h3>
+      </div>
+      <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ropa hombre">
+        <h3>Ropa hombre</h3>
+      </div>
+      <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1120&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="tecnologia">
+        <h3>Tecnología</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Productos Detallados -->
+<section id="productos" class="seccion productos fade-in">
+  <h2 class="titulo-seccion">Productos Destacados</h2>
+  <div class="producto-detalles" id="productosGrid">
+    <!-- Aquí se cargarán los productos dinámicamente -->
+  </div>
+</section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="seccion contacto fade-in">
+    <h2 class="titulo-seccion">Contáctanos</h2>
+    <form class="formulario-contacto">
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo electrónico" required />
+      <textarea placeholder="Mensaje" rows="5" required></textarea>
+      <button type="submit" class="btn">Enviar Mensaje</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Isaka shop. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Carrito Lateral -->
+  <div class="carrito-lateral">
+    <div class="carrito-header">
+      <h3>Carrito (<span class="cart-count">0</span>)</h3>
+      <span class="close-cart">&times;</span>
+    </div>
+    <div class="carrito-items"></div>
+    <button class="checkout-btn">Ir a Página de Pago</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
