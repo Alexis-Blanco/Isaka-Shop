@@ -1,6 +1,3 @@
-¡Perfecto! 😊  
-A continuación, te comparto un archivo **`README.md`** listo para incluir en tu proyecto. Este documento sirve como **página de presentación**, ideal para repositorios de GitHub o carpetas del proyecto.
-
 ---
 
 # 🛍️ Isaka Shop – Tienda Online
