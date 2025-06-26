@@ -1,10 +1,11 @@
+
 ---
 
 # 🛍️ Isaka Shop – Tienda Online
 
 > Una tienda online minimalista y moderna con integración a FakeStoreAPI, carrito lateral y filtrado por categorías.
 
-![Isaka Shop](https://via.placeholder.com/800x400?text=Isaka+Shop+Preview) *(Puedes reemplazar esto con una captura real de tu proyecto)*
+![Isaka Shop](assets/images/isaka_shop.png)
 
 ---
 
