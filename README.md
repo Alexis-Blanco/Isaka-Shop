@@ -1,5 +1,5 @@
 
----
+--
 
 # 🛍️ Isaka Shop – Tienda Online
 
@@ -7,7 +7,7 @@
 
 ![Isaka Shop](assets/images/isaka_shop.png)
 
----
+--
 
 ## 📋 Sobre el Proyecto
 
