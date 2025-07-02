@@ -126,6 +126,7 @@ document.querySelector('.carrito-icon').addEventListener('click', () => {
   carritoLateral.classList.toggle('open');
 });
 
+
 botonFiltro.addEventListener('change', () => {
   const opcion = botonFiltro.value;
   let listaFiltrada = [...productos];
@@ -142,6 +143,13 @@ botonFiltro.addEventListener('change', () => {
       break;
     case 'name_desc':
       listaFiltrada.sort((a, b) => b.title.localeCompare(a.title));
+      break;
+    case 'name_fav':
+      listaFiltrada.sort((a, b) => {
+        const isAFav = carrito[a.id] ? 1 : 0;
+        const isBFav = carrito[b.id] ? 1 : 0;
+        return isBFav - isAFav; // Favoritos primero
+      });
       break;
   }
 
@@ -170,4 +178,3 @@ document.querySelector('.logo').addEventListener('click', function(e) {
 mostrarHeroProduct();
 obtenerProductos();
 actualizarCarrito();
-

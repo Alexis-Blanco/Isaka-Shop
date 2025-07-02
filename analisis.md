@@ -257,3 +257,9 @@ La estructura de datos es sencilla pero efectiva, permitiendo **filtrado local, 
 Este proyecto es escalable y adaptable, con posibilidad de integrar nuevas funcionalidades sin afectar la arquitectura actual.
 
 ---
+
+---
+## Actualización
+
+-Se le implementa el ícono de carrito de compras que no lo tenía para hacer más intuitiva la página con el usuario al momento de ubicar el carro de compras.
+-Se agrega el botón de favoritos para una futura actualización donde las personas pueden marcar un producto como favorito y luego visualizarlo en otra sección donde sólo vea los productos favoritos.
