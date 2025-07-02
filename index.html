@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Isaka Shop</title>
 
+  <!-- Fuente moderna -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css" />
@@ -12,6 +13,7 @@
 </head>
 <body>
 
+  <!-- Header -->
   <header class="site-header">
     <div class="logo">Isaka Shop</div>
     <nav class="menu">
@@ -27,6 +29,7 @@
     </div>
   </header>
 
+  <!-- Hero Section dinámico -->
   <section id="hero" class="hero">
     <div class="hero-content">
       <h1 id="hero-title">Enciende tu juego</h1>
@@ -36,6 +39,7 @@
     <img src="" alt="Producto Destacado" id="hero-image" class="hero-image">
   </section>
 
+  <!-- Categorías (fijas con imágenes estáticas) -->
   <section id="categorias" class="seccion">
     <h2 class="titulo-seccion">Explora nuestras categorías</h2>
     <div class="categorias-grid" id="categoriasGrid">
@@ -58,6 +62,7 @@
     </div>
   </section>
 
+  <!-- Filtro de ordenamiento mejorado -->
   <div class="filtros-globales">
     <label for="sortSelect" class="filter-label">Ordenar por:</label>
     <select id="sortSelect" class="styled-select">
@@ -67,15 +72,17 @@
       <option value="name_asc">Nombre A-Z</option>
       <option value="name_desc">Nombre Z-A</option>
     </select>
-    <button class="btn" id="verComprasAnterioresBtn">Ver compras anteriores</button>
   </div>
 
+  <!-- Productos -->
   <section id="productos" class="seccion">
     <h2 class="titulo-seccion">Productos Destacados</h2>
     <div class="producto-detalles" id="productosGrid">
+      <!-- Aquí se insertan dinámicamente los productos -->
     </div>
   </section>
 
+  <!-- Contacto -->
   <section id="contacto" class="seccion contacto">
     <h2 class="titulo-seccion">Contáctanos</h2>
     <form class="formulario-contacto">
@@ -86,10 +93,12 @@
     </form>
   </section>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <p>&copy; 2025 Isaka Shop. Todos los derechos reservados.</p>
   </footer>
 
+  <!-- Carrito Lateral -->
   <div class="carrito-lateral" id="carritoLateral">
     <div class="carrito-header">
       <h3>Carrito (<span class="cart-count" id="cartCountSide">0</span>)</h3>
@@ -97,17 +106,10 @@
     </div>
     <div class="carrito-items" id="carritoItems"></div>
     <p class="carrito-total">Total: $<span id="carritoTotal">0.00</span></p>
-    <button class="checkout-btn" id="checkoutBtn">Comprar</button>
+    <button class="checkout-btn" id="checkoutBtn">Ir a Página de Pago</button>
   </div>
 
-  <div id="modalComprasAnteriores" class="modal">
-    <div class="modal-contenido">
-      <span class="cerrar-modal" id="cerrarModalCompras">&times;</span>
-      <h2>Historial de Compras</h2>
-      <div id="historialComprasContenido"></div>
-    </div>
-  </div>
-
+  <!-- Script -->
   <script src="script.js"></script>
 </body>
 </html>
